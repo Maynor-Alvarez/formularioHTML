@@ -1,0 +1,82 @@
+	<head>
+		<title> Formulario</title> 
+	<head>
+	
+<form action = "formulario" method= "get"> 
+	<body bgcolor="#DA5D2A">
+	<font color="white">
+	<h1 align="center"  > Formulario  </h1>
+	<h2 align="center" > Maynor Alvarez   </h2>
+	</font>
+	<div align="center"> 
+	<table>
+	<tr>
+	<td><strong> NIT: <input type="text"  name= "nit" size= "40" minlength="10" required /strong></td>
+	</tr>
+	<tr>
+	<td><strong> Nombres:<input type= "text" name= "nombres" size="36" /strong></td> 
+	</tr>
+	<tr>
+	<td><strong> Apellidos:<input type="text" name= "apellidos" size="36" /strong></td> 
+	</tr>
+	<tr>
+	<td><strong> Direccion:<input type="text" name= "direccion" size="36" /strong></td>
+	</tr>
+	<tr>
+	<td><strong> Telefono:<input type= "text" name= "telefono" size="37" /strong></td>
+	</tr>
+	<tr>
+	<td><strong> Fecha Registro:<input type="text" name="registro" size="30" min="1900"/strong></td>
+	</tr>
+	</table>
+
+	<p align="center" > Tipo de Cliente: <select name="Tipo de Cliente" required > 
+		<option>Seleccione una Opción</option>
+		<option>Ocasional</option>
+		<option>Habitual</option>
+		<option>corporativo</option>
+		<option>Pequeño</option>
+		</select>
+		
+
+	<table>
+	<tr>
+	<td><strong> Limite de Credito: <input type="text" name="limite De Credito" size="30"/strong></td>
+	</tr>
+	<tr>
+	<td><strong> Nombre del Contacto: <input type="text" name= "nombre del Contacto" size="26" /strong></td>
+	</tr>
+	</table>
+
+	<h3 align="center" > sexo: </h3>
+		<input type="radio" name="hm" value="h" required> Hombre
+		<input type="radio" name="hm" value="m" required> Mujer
+
+	<table>
+	<tr>
+	<td><strong> correo Electronico: <input type="text" name="correo Electronico" size="30" /strong></td>
+	</tr>
+	<tr>
+	<td><strong> Total Venta: <input type="text" name="total Venta" size="37" /strong></td>
+	</tr>
+	<tr>
+	<td><strong> Margen: <input type="text" name="margen" size="40" /strong></td>
+	</tr>
+	</table>
+	
+	<p align="center"> Region: <select name="region" required>
+		<option> selecione una opción</option>
+		<option> Centro </option>
+		<option> Norte </option>
+		<option> Sur </option>
+		</select>
+		
+	<p>	
+	<input type="submit" value="Enviar">
+	<input type="reset" value="Borrar">
+	
+
+	
+	</p>
+	</div>
+<form> 
